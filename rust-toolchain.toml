@@ -1,0 +1,11 @@
+[toolchain]
+channel = "1.88.0"
+components = [ "rustc", "cargo", "rust-src", "rustfmt", "rust-analyzer", "clippy" ]
+targets = [
+  "aarch64-linux-android",
+  "armv7-linux-androideabi",
+  "i686-linux-android",
+  "x86_64-linux-android",
+  "wasm32-unknown-unknown"
+]
+profile = "default"
