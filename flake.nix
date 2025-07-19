@@ -66,6 +66,7 @@
                 bacon
               ];
               tauriDeps = with pkgs; [
+                android-tools
                 pkg-config
                 cargo-tauri
                 at-spi2-atk
